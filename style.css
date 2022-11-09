@@ -1,0 +1,96 @@
+body{
+    font-family: sans-serif;
+    background-image: url("assets/cricpro-bg.png");
+    background-repeat: no-repeat;
+    background-position: right 100px;
+    margin-left: 50px;
+}
+
+.logo{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+h1{
+    margin-top: 60px;
+    text-shadow: 2px 2px 2px #888;
+    font-size: 2.5rem;
+}
+
+h2{
+    font-size: 1.4rem;
+    color: #696969;
+}
+
+table{
+    background-color: #ffffff;
+    border-collapse: collapse;
+    box-shadow: 5px 5px 5px #888;
+}
+
+thead{
+    background-color: #efefef;
+}
+
+tr{
+    border-bottom: .5px solid #c0c0c0;
+}
+
+thead tr,tr:last-child{
+    border-bottom: 0;
+}
+
+th,td{
+    padding: 7px 7px;
+    font-weight: 400;
+}
+
+.red{
+    background-color: #F05136;
+    color: #ffffff;
+}
+
+.name{
+    width: 200px;
+    text-align: left;
+}
+
+.player{
+    color: #2F80ED;
+    cursor: pointer;
+}
+
+.desc{
+    width: 400px;
+    text-align: left;
+}
+
+.score{
+    text-align: center;
+    width: 50px;
+}
+
+.long{padding-left: 20px;}
+
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
+.center{
+    text-align: center;
+}
+
+#player-img{
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    max-width: 30vw;
+}
+
+.credit{
+    padding-top: 20px;
+}
